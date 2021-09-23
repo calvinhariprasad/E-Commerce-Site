@@ -1,0 +1,2 @@
+# E-Commerce-Solution
+The purpose of our project is to provide an e-commerce solution. Users of the website should have a positive online shopping experience with an easy-to-use interface and a pleasant design. A user should be able to search for products, add items to a cart, and check out their items. Customer information and transaction details should be stored in a database. After checkout, the customer should be sent
