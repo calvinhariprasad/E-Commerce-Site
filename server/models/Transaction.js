@@ -1,5 +1,6 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose"); // import mongoose
 
+// Schema for transaction entries
 const TransactionSchema = new mongoose.Schema({
   firstName: {
     type: String,

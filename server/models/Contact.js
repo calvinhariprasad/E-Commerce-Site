@@ -1,5 +1,6 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose"); // import mongoose
 
+// Schema for contact form entries
 const ContactSchema = new mongoose.Schema({
   name: {
     type: String,

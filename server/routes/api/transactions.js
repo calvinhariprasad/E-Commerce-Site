@@ -1,12 +1,13 @@
-const express = require("express");
-const router = express.Router();
+const express = require("express"); // import express
+const router = express.Router(); // establish express router
 
-const Transaction = require("../../models/Transaction");
+const Transaction = require("../../models/Transaction"); // import schema
 
 router.get("/test", (req, res) => {
   res.send("Testing contact form!");
 });
 
+// Pull transaction form entries from the database and push to API
 router.get("/", (req, res) => {
   Transaction.find()
     .then((transaction) => res.json(transaction))
@@ -17,6 +18,7 @@ router.get("/", (req, res) => {
     );
 });
 
+// Push new transaction form entries using POST
 router.post("/", (req, res) => {
   console.log("Posting transaction data to the database");
   const newEntry = new Transaction({

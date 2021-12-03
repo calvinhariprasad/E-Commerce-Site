@@ -1,5 +1,6 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose"); // import mongoose
 
+// Schema for product entries - not used in latest release
 const ProductSchema = new mongoose.Schema({
   sku: {
     type: String,

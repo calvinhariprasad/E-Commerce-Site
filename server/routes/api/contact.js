@@ -1,12 +1,13 @@
-const express = require("express");
-const router = express.Router();
+const express = require("express"); // import express
+const router = express.Router(); // establish router
 
-const Contact = require("../../models/Contact");
+const Contact = require("../../models/Contact"); // import schema
 
 router.get("/test", (req, res) => {
   res.send("Testing contact form!");
 });
 
+// Pull contact form entries from the database and push to API
 router.get("/", (req, res) => {
   Contact.find()
     .then((contact) => res.json(contact))
@@ -15,6 +16,7 @@ router.get("/", (req, res) => {
     );
 });
 
+// Push new contact form entries using POST
 router.post("/", (req, res) => {
   console.log("Posting contact data to the database");
   const newEntry = new Contact({
