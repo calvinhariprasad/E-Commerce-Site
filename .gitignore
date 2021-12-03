@@ -72,3 +72,4 @@ client/.yarn-integrity
 # -- SERVER --
 server/node_modules
 server/.env
+server/config/default.json
