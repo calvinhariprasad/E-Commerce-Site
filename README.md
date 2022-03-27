@@ -80,4 +80,4 @@ The API can be accessed by going to the back-end of the site at `phoenixtech-app
 
 ---
 
-_All of the code in this repository was either written by Steven Whitfield, or automatically generated using Gatsby or NPM._
+_All of the code in this repository was written by Steven Whitfield using boilerplate from Gatsby/NPM._
