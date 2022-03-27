@@ -17,9 +17,7 @@ Steven Whitfield<br><em>UI designer, front-end developer, back-end developer</em
 
 ### **Live Demo**
 
-[Phoenix Tech](https://phoenixtech.netlify.app/) - hosted with Netlify
-
-[Back-end server](http://phoenixtech-app.herokuapp.com/) - hosted with Heroku
+The resources used to host this web application have been repurposed. As such, the live demo will no longer be available.
 
 _NOTE: The front-end can be built locally (instructions on that below), however, the back-end requires a connection to the MongoDB database to function properly. As such, building the back-end on a local instance will not work._
 
@@ -59,7 +57,10 @@ To run a local instance of the front-end:
 
 1. Download or clone the repository to a local directory.
 2. Open the terminal and change directory to `client`.
-3. Enter the command `npm run start`.
+3. Enter the command `npm install` to ensure no dependencies are missing.
+4. Enter the command `npm start` and follow the instructions in the terminal.
+
+_`npm` requires a working installation of Node.js_
 
 ### **Back-end breakdown**
 
